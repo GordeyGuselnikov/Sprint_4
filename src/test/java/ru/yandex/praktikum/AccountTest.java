@@ -48,7 +48,7 @@ public class AccountTest {
 
     @Test
     @DisplayName("Тест с параметризацией")
-    @Description("Проверка метода checkNameToEmboss, вариации ввода данных, метод возвращает true or false")
+    @Description("Проверка метода checkNameToEmboss, варианты ввода данных, метод возвращает true or false")
     public void testParameterized() {
         assertEquals(expected, account.checkNameToEmboss());
     }
